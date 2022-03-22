@@ -3,13 +3,14 @@
     "version": "0.0.1",
     "main": "main.js",
     "scripts": {
-        "start": "electron main.js"
+        "start": "electron main.js --enable-logging=stderr"
     },
     "dependencies": {},
     "devDependencies": {
         "bindings": "~1.2.1",
-        "node-addon-api": "^1.0.0",
-        "electron": "17.0.0"
+        "node-addon-api": "4.3.0",
+        "get-uv-event-loop-napi-h": "*",
+        "electron": "13.6.9"
     },
     "gypfile": true
 }
